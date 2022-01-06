@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/suraj/static/css/main.362c022a.css",
-    "main.js": "/suraj/static/js/main.16646bbb.js",
+    "main.js": "/suraj/static/js/main.d83cc602.js",
     "static/js/787.b700b8b5.chunk.js": "/suraj/static/js/787.b700b8b5.chunk.js",
     "static/media/delete1.png": "/suraj/static/media/delete1.96d6efd6f1a89ed8fdc6.png",
     "index.html": "/suraj/index.html",
     "main.362c022a.css.map": "/suraj/static/css/main.362c022a.css.map",
-    "main.16646bbb.js.map": "/suraj/static/js/main.16646bbb.js.map",
+    "main.d83cc602.js.map": "/suraj/static/js/main.d83cc602.js.map",
     "787.b700b8b5.chunk.js.map": "/suraj/static/js/787.b700b8b5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.362c022a.css",
-    "static/js/main.16646bbb.js"
+    "static/js/main.d83cc602.js"
   ]
 }

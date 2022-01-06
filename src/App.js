@@ -1,25 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import New from "./component/New";
+import Message from "./component/Message";
+import Add from "./component/Add";
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
+  
+  export default function Contact(){
+    return(
+      <Router>
+        <div>
+          <Link to='/'>Home</Link>
+        </div>
+        <div>
+        <Link to="/data">Add</Link>
+         
+        </div>
+        <div>
+        <Link to="/sec">ShowData</Link>
+</div>
+        
+        <Switch>
+          <Route exact path="/">
+            <New />
+          </Route>
+          <Route exact path="/sec">
+            <Message />
+          </Route>
+          <Route exact path="/data">
+  <Add />
+</Route>  
+        </Switch>
+      </Router>
+      
+    );
+  };
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+  
+  
 
-export default App;
+  
+  
+  
+  

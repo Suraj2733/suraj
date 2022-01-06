@@ -1,0 +1,123 @@
+
+.full{
+  background-color: rgb(250, 247, 247);  
+  min-height: 500px;
+  width: 400px;
+  margin:center;
+  text-align: center; 
+  align-items: center;
+  position: relative;
+  left: 35%;
+}
+
+.tlist{
+  background-color: purple;
+  color: white;
+  text-align: center;
+  min-height: 50px;
+  width:  100;
+  font-style: chonburi;
+}
+
+.inn{
+  text-shadow: 300px;
+  font-size: 20px;
+  height: 30px;
+
+  background-color: white;
+  margin-top: 0%;
+  text-align: left;
+  size: 50%;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.inn{
+  text-shadow: 300px;
+  font-size: 20px;
+  height: 30px;
+
+  background-color: white;
+  margin-top: 0%;
+  text-align: left;
+  size: 50%;
+  border-radius: 10px;
+}
+
+.btnn{
+  background-color: green;
+  margin: 20px;
+  
+  height: 35px;
+  width: 40px;
+  cursor: pointer;
+  color: aqua;
+  border-radius: 8px;
+  font-size: 20px;
+}
+.n{
+  background-color: rgb(204, 58, 58);
+  cursor: pointer;
+  margin-left: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  border-radius: 5px;
+}
+.l{
+  background-color: red;
+  height: 20px;
+  width: 20px;
+  color: red;
+}
+
+.m{
+  background-color: green;
+  cursor: pointer;
+  margin-left: 250px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  border-radius: 5px;
+
+}
+
+.o{
+  background-color: green;
+  height: 20px;
+  width: 20px;
+  color: green;
+}
+
+.todo{
+  text-align: center;
+}
+.edtbtn{
+  background-color: green;
+  margin-left: 120px;
+  
+
+}
+.eltbtn{
+  background-color: red;
+  margin-left: 5px;
+  
+}
+
+.sh{
+  background-color: green;
+margin: 50px;
+  
+height: 35px;
+width: 40px;
+cursor: pointer;
+color: aqua;
+border-radius: 8px;
+font-size: 20px;
+position: relative;
+}
+
+
+

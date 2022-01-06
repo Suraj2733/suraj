@@ -46,7 +46,7 @@ useEffect(() => {
 }, [])
 
     const fetchTodos = async () => {
-        const response = await fetch("https://new-fastapi-app.herokuapp.com/todo")
+        const response = await fetch("https://todoimsss.herokuapp.com/todo")
         const todos = await response.json()
         console.log(todos.data);
         setTodos(todos.data)

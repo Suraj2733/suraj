@@ -19,7 +19,7 @@ function App() {
     event.preventDefault();
     
     setUse("")
-    fetch("https://new-fastapi-app.herokuapp.com/use", {
+    fetch("https://todoimsss.herokuapp.com/use", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(newUse)

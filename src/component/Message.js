@@ -35,7 +35,7 @@ export default function Todos() {
     const [todos, setTodos] = useState([])
   //  const [use, setUse] = useState([])
     const fetchUse = async () => {
-      const response = await fetch("https://new-fastapi-app.herokuapp.com/use")   
+      const response = await fetch("https://todoimsss.herokuapp.com/use")   
       const use = await response.json()
       console.log(use.data);
     //  setUse(use.data)

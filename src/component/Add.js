@@ -23,7 +23,7 @@ export default function Add() {
         event.preventDefault();
         setItem("")
     
-        fetch("https://new-fastapi-app.herokuapp.com/todo", {
+        fetch("https://todoimsss.herokuapp.com/todo", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(newTodo)
